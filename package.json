@@ -1,0 +1,32 @@
+{
+  "name": "vscode-i18n",
+  "version": "0.1.0",
+  "description": "vscode-i18n",
+  "main": "out/index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc -p .",
+    "test": "node ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhetengbiji/vscode-i18n.git"
+  },
+  "keywords": [
+    "vscode",
+    "i18n"
+  ],
+  "author": "Shengqiang Guo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhetengbiji/vscode-i18n/issues"
+  },
+  "homepage": "https://github.com/zhetengbiji/vscode-i18n#readme",
+  "devDependencies": {
+    "@types/node": "^10.0.0",
+    "@types/os-locale": "^2.1.0"
+  },
+  "dependencies": {
+    "os-locale": "^2.1.0"
+  }
+}
