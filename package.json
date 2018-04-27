@@ -1,8 +1,9 @@
 {
   "name": "vscode-i18n",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "vscode-i18n",
   "main": "out/index.js",
+  "types": "out/index.d.ts",
   "scripts": {
     "prepublish": "npm run build",
     "build": "tsc -p .",
