@@ -9,7 +9,7 @@ npm install vscode-i18n --save
 ## 使用
 
 ```js
-const i18n = require('../out/index')
+const i18n = require('vscode-i18n')
 ```
 
 ### 初始化i18n目录和默认语言
