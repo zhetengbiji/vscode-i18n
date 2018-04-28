@@ -13,12 +13,13 @@ const i18n = require('vscode-i18n')
 ```
 
 ### 初始化i18n目录和默认语言
-init(i18nDirPath, defaultLanguage)
+i18n.Localize(i18nDirPath, defaultLanguage)
 * **i18nDirPath** 必选，i18n目录，默认为当前进程目录下的“i18n”文件夹
 * **defaultLanguage** 可选，默认语言，默认为“en”
+* 返回**localize**方法
 
 ```js
-i18n.init('./i18n', 'en')
+const localize = i18n.Localize(path.join(__dirname, 'i18n'))
 ```
 
 ### 获取当前语言
@@ -31,7 +32,6 @@ i18n.locale
 localize(key)
 
 ```js
-const localize = i18n.localize
 localize('hello')
 ```
 
