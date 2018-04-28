@@ -1,6 +1,6 @@
 {
   "name": "vscode-i18n",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "vscode-i18n",
   "main": "out/index.js",
   "types": "out/index.d.ts",

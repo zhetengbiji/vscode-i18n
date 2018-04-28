@@ -35,7 +35,7 @@ var i18nDirPath_: string = 'i18n'
  * @param defaultLanguage 默认语言
  */
 export function init(i18nDirPath: string, defaultLanguage?: string) {
-    defaultLanguage_ = i18nDirPath
+    i18nDirPath_ = i18nDirPath
     if(defaultLanguage) {
         defaultLanguage_ = defaultLanguage
     }
